@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FORM</title>
+	<title>form</title>
 </head>
-<body>
-	<a href="index.html">HOME PAGE</a>
-	<form action="mail to:vc@kwasu.edu.ng" enctype="plain/text" method="post">
-		<label>SURNMAE:</label>&nbsp;&nbsp;&nbsp;
-		<input type="text" name="your surname"><p></p>
-		<label>EMAIL:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<input type="email" name="your email"><p></p>
-		<label>PASSWORD:</label>&nbsp;
-		<input type="password" name="your password"><p></p>
-		<textarea name="comment" rows="5" cols="4"></textarea><p></p>
-		<label>DATE OF BIRTH</label>
-		<input type="date" name="your age"><p></p>
-		<label>CREDENTIALS</label>
-		<input type="file" name="your age"><p></p>
-		<label>GENDER</label>
-		<input type="radio" name="gender" value="male" checked="checked">MALE &nbsp;&nbsp;<input type="radio" name="gender" value="female">FEMALE<p></p>
-		<label>your web experience</label><input type="range" name="range">
-		<label>STATE:</label><select>
-			<option>KWARA</option>
-			<option>ABIA</option>
-			<option>ADAMAWA</option>
-			<option>AKWA IBOM</option>
-			<option>ANAMBRA</option>
-			<option selected="selected">ONDO</option>
-			<option>BENUE</option>
-			<option>BORNO</option>
-		</select><p></p>
+<body bgcolor="cyan">
+	<a href="index.html">HOME</a>
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<label>enter your surname</label>
+	<input type="text" name="yourname"><br>
+	<p><label>enter your email</label>
+	<input type="email" name="youremail"></p>
+	<p><label>enter your password</label>
+	<input type="password" name="yourpassword"></p>
+	<p><input type="radio" name="gender" value="m">male &nbsp; &nbsp;
+	<input type="radio" name="gender" value="f" checked="checked">female</p>
+	<input type="checkbox" name="hubby">reading &nbsp; &nbsp;
+	<input type="checkbox" name="hubby">eating &nbsp; &nbsp;
+	<input type="checkbox" name="hubby">singing &nbsp; &nbsp;
+	<input type="checkbox" name="hubby">sleeping 
+	<p>
+		<label>state of birth</label>
+		<select name="state">
+		<option> kwara</option>
+		<option> lagos</option>
+		<option> kebi</option>
+		<option>ogun</option>
+	</select>&nbsp; &nbsp;
+	<label>year of birth</label>
+	<select name="year">
+		<option> 1999</option>
+		<option> 1998</option>
+		<option> 1997</option>
+		<option>1996</option>
+	</select>&nbsp; &nbsp;
+	<label>month</label>
+	<select name="month">
+		<option>january</option>
+		<option> febuary</option>
+		<option> march</option>
+		<option> april</option>
+		<option> may</option>
+		<option> june</option>
+		<option> july</option>
+		<option> august</option>
+		<option> september</option>
+		<option>octomber</option>
+	</select>&nbsp; &nbsp;
+<label>day</label>
+	<select name="day">
+		<option> 1st</option>
+		<option> 2nd</option>
+		<option> 3rd</option>
+		<option> 4th</option>
+		<option> 5th</option>
+		<option> 6th</option>
+		<option> 7th</option>
+		<option> 8th</option>
+		<option> 9th</option>
+	</select>
+<input type="submit">
 
-		<input type="submit" value="send">
-	</form>
+
 
 </body>
 </html>
